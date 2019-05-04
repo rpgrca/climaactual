@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/climaImageView"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/icono_de_clima"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_dialog_map" />
+
+    <TextView
+        android:id="@+id/ciudadTextView"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/climaImageView"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/agregar_ciudad_texto_por_defecto" />
+
+    <TextView
+        android:id="@+id/actualizacionTextView"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/descripcionTextView"
+        app:layout_constraintStart_toStartOf="@+id/descripcionTextView"
+        app:layout_constraintTop_toBottomOf="@+id/descripcionTextView"
+        tools:text="@string/texto_ultima_actualizacion" />
+
+    <TextView
+        android:id="@+id/descripcionTextView"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/ciudadTextView"
+        app:layout_constraintStart_toStartOf="@+id/ciudadTextView"
+        app:layout_constraintTop_toBottomOf="@+id/ciudadTextView"
+        tools:text="@string/texto_descripcion" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clima Actual</string>
+    <string name="menu_agregar_ciudad">Add city</string>
+    <string name="menu_configuracion">Configuration</string>
+    <string name="agregar_ciudad_texto_por_defecto">City</string>
+    <string name="texto_boton_agregar">Add</string>
+    <string name="titulo_alerta_borrar">Delete</string>
+    <string name="pregunta_mensaje_borrar">Are you sure you wish to delete %s?</string>
+    <string name="texto_boton_borrar">Delete</string>
+    <string name="texto_boton_cancelar">Cancel</string>
+    <string name="texto_alerta_ya_existe">City already exists</string>
+    <string name="texto_boton_reintentar">Retry</string>
+    <string name="texto_descripcion">Description</string>
+    <string name="texto_ultima_actualizacion">Updated: %s</string>
+    <string name="texto_alerta_nombre_vacio">City name cannot be empty</string>
+    <string name="texto_respuesta_vacia">Empty reply from server, city may not exist or Internet connection might be down</string>
+    <string name="texto_tocar_para_refrescar">Tap to update</string>
+    <string name="titulo_alerta_refrescar">Update</string>
+    <string name="pregunta_mensaje_refrescar">Do you wish to update already obtained results?</string>
+    <string name="texto_boton_refrescar">Update</string>
+    <string name="agregar_longitud_texto_default">Longitude</string>
+    <string name="agregar_latitud_texto_default" >Latitude</string>
+    <string name="icono_de_clima">Current weather icon</string>
+</resources>

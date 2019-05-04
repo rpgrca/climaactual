@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clima Actual</string>
+    <string name="menu_agregar_ciudad">Agregar ciudad</string>
+    <string name="menu_configuracion">Configuración</string>
+    <string name="agregar_ciudad_texto_por_defecto">Ciudad</string>
+    <string name="texto_boton_agregar">Agregar</string>
+    <string name="titulo_alerta_borrar">Borrar</string>
+    <string name="pregunta_mensaje_borrar">Está seguro que desea borrar %s?</string>
+    <string name="texto_boton_borrar">Borrar</string>
+    <string name="texto_boton_cancelar">Cancelar</string>
+    <string name="texto_alerta_ya_existe">La ciudad ya existe</string>
+    <string name="texto_boton_reintentar">Reintentar</string>
+    <string name="texto_descripcion">Descripción</string>
+    <string name="texto_ultima_actualizacion">Actualizado: %s</string>
+    <string name="texto_alerta_nombre_vacio">El nombre no puede estar vacío</string>
+    <string name="texto_respuesta_vacia">Respuesta vacía del servidor, la ciudad puede no existir o la conexión a Internet puede estar fallando</string>
+    <string name="texto_tocar_para_refrescar">Tocar para refrescar</string>
+    <string name="titulo_alerta_refrescar">Actualizar</string>
+    <string name="pregunta_mensaje_refrescar">Desea refrescar los resultados ya obtenidos?</string>
+    <string name="agregar_longitud_texto_default">Longitud</string>
+    <string name="agregar_latitud_texto_default" >Latitud</string>
+    <string name="texto_boton_refrescar">Actualizar</string>
+    <string name="icono_de_clima">Icono del clima</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sub48.climaactual.MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/MenuAgregarCiudad"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/menu_agregar_ciudad" />
+    <group
+        android:id="@+id/MenuUnidad"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/MenuUnidadCelsius"
+            android:title="@string/menu_item_celsius" />
+        <item
+            android:id="@+id/MenuUnidadFahrenheit"
+            android:title="@string/menu_item_fahrenheit" />
+        <item
+            android:id="@+id/MenuUnidadKelvin"
+            android:title="@string/menu_item_kelvin" />
+    </group>
+    <group
+        android:id="@+id/MenuIdioma"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/MenuCastellano"
+            android:title="@string/menu_item_castellano" />
+        <item
+            android:id="@+id/MenuIngles"
+            android:title="@string/menu_item_ingles" />
+    </group>
+
+</menu>
