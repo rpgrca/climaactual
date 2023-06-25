@@ -4,9 +4,10 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+      day: "monday"
 
   - package-ecosystem: "gradle"
     directory: "/"
     schedule:
       interval: "weekly"
-
+      day: "monday"
